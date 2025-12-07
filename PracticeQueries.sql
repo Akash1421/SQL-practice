@@ -82,3 +82,9 @@
 --ORDER By Color DESC,ListPrice DESC;
 
 
+-- We can sort by mentioning the number of the column--------------------------------
+/*
+SELECT *
+FROM DimProduct
+ORDER BY 1 DESC;
+*/
